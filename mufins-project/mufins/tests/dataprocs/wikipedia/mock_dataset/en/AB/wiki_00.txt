@@ -1,0 +1,5 @@
+<doc id="1" url="?curid=1" title="a">
+What a silly man.
+
+
+</doc>

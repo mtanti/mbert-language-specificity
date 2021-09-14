@@ -1,0 +1,14 @@
+<doc id="1" url="?curid=1" title="a">
+
+John bought McDonalds.
+Paul sold Audi.
+I ate a pizza.
+
+The dog barked all night.
+We arrived.
+</doc>
+
+<doc id="1" url="?curid=1" title="a">
+His name is Paul.
+BMW is a brand.
+</doc>

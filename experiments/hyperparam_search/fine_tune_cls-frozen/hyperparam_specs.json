@@ -1,0 +1,14 @@
+{
+    "init_stddev": {
+        "dtype": "float",
+        "values": [1e-1, 1e-2, 1e-3]
+    },
+    "minibatch_size": {
+        "dtype": "int",
+        "values": [64, 32, 16]
+    },
+    "postencoder_learning_rate": {
+        "dtype": "float",
+        "values": [1e-1, 1e-2, 1e-3, 1e-4]
+    }
+}

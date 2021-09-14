@@ -1,0 +1,392 @@
+2021/06/03 06:25:12 GMT	
+2021/06/03 06:25:12 GMT	------------------------------------------------
+2021/06/03 06:25:12 GMT	Running lang_grad_rev_tag experiment.
+2021/06/03 06:25:12 GMT	
+2021/06/03 06:25:14 GMT	Seed: 0
+2021/06/03 06:25:14 GMT	Label source path: /home/marc/data/mufins/datasets/udpos/processed/udpos-2
+2021/06/03 06:25:14 GMT	Language source path: /home/marc/data/mufins/datasets/wikipedia/processed/wikipedia-2
+2021/06/03 06:25:14 GMT	Destination path: /opt/local/data/users/marc/mufins/experiments/language_specificity/hyperparam_search/lang_grad_rev_tag
+2021/06/03 06:25:14 GMT	Device name: cuda:1
+2021/06/03 06:25:14 GMT	Hyperparameter search mode: True
+2021/06/03 06:25:14 GMT	Batch size: 32
+2021/06/03 06:25:14 GMT	GPU available?: True
+2021/06/03 06:25:14 GMT	
+2021/06/03 06:25:14 GMT	Default parameters:
+2021/06/03 06:25:14 GMT	> encoder_name: mbert
+2021/06/03 06:25:14 GMT	> layer_index: None
+2021/06/03 06:25:14 GMT	> init_stddev: 0.1
+2021/06/03 06:25:14 GMT	> minibatch_size: 64
+2021/06/03 06:25:14 GMT	> dropout_rate: 0.1
+2021/06/03 06:25:14 GMT	> freeze_embeddings: False
+2021/06/03 06:25:14 GMT	> encoder_learning_rate: 2e-05
+2021/06/03 06:25:14 GMT	> postencoder_learning_rate: 0.01
+2021/06/03 06:25:14 GMT	> grl_lambda: 0.0
+2021/06/03 06:25:14 GMT	> patience: None
+2021/06/03 06:25:14 GMT	> max_epochs: 5
+2021/06/03 06:25:14 GMT	
+2021/06/03 06:25:14 GMT	Loading data.
+2021/06/03 06:25:14 GMT	Starting experiments.
+2021/06/03 06:25:14 GMT	
+2021/06/03 06:25:14 GMT	----------------
+2021/06/03 06:25:14 GMT	Experiment: encoder_learning_rate=1e-06,grl_lambda=0.7,init_stddev=0.1,minibatch_size=32,postencoder_learning_rate=0.0001
+2021/06/03 06:25:14 GMT	
+2021/06/03 06:25:14 GMT	Creating model.
+2021/06/03 06:25:20 GMT	
+2021/06/03 06:25:20 GMT	Training model.
+2021/06/03 06:33:00 GMT	Finished epoch 1: 07m:33s
+2021/06/03 06:40:33 GMT	Finished epoch 2: 07m:33s
+2021/06/03 06:48:07 GMT	Finished epoch 3: 07m:34s
+2021/06/03 06:55:39 GMT	Finished epoch 4: 07m:32s
+2021/06/03 07:03:12 GMT	Max epochs reached on epoch 5: 07m:34s
+2021/06/03 07:03:13 GMT	Duration: 37m:53s
+2021/06/03 07:03:13 GMT	
+2021/06/03 07:03:13 GMT	Evaluating model.
+2021/06/03 07:05:47 GMT	Duration: 02m:33s
+2021/06/03 07:05:47 GMT	
+2021/06/03 07:05:47 GMT	Duration: 40m:33s
+2021/06/03 07:05:47 GMT	
+2021/06/03 07:05:47 GMT	----------------
+2021/06/03 07:05:47 GMT	Experiment: encoder_learning_rate=1e-06,grl_lambda=0.5,init_stddev=0.01,minibatch_size=32,postencoder_learning_rate=0.01
+2021/06/03 07:05:47 GMT	
+2021/06/03 07:05:47 GMT	Creating model.
+2021/06/03 07:05:51 GMT	
+2021/06/03 07:05:51 GMT	Training model.
+2021/06/03 07:13:31 GMT	Finished epoch 1: 07m:33s
+2021/06/03 07:21:03 GMT	Finished epoch 2: 07m:32s
+2021/06/03 07:28:36 GMT	Finished epoch 3: 07m:33s
+2021/06/03 07:36:10 GMT	Finished epoch 4: 07m:34s
+2021/06/03 07:43:43 GMT	Max epochs reached on epoch 5: 07m:34s
+2021/06/03 07:43:44 GMT	Duration: 37m:54s
+2021/06/03 07:43:44 GMT	
+2021/06/03 07:43:44 GMT	Evaluating model.
+2021/06/03 07:46:19 GMT	Duration: 02m:34s
+2021/06/03 07:46:19 GMT	
+2021/06/03 07:46:19 GMT	Duration: 40m:32s
+2021/06/03 07:46:19 GMT	
+2021/06/03 07:46:19 GMT	----------------
+2021/06/03 07:46:19 GMT	Experiment: encoder_learning_rate=0.0001,grl_lambda=0.5,init_stddev=0.1,minibatch_size=64,postencoder_learning_rate=0.001
+2021/06/03 07:46:19 GMT	
+2021/06/03 07:46:19 GMT	Creating model.
+2021/06/03 07:46:23 GMT	
+2021/06/03 07:46:23 GMT	Training model.
+2021/06/03 07:53:48 GMT	Finished epoch 1: 07m:18s
+2021/06/03 08:01:05 GMT	Finished epoch 2: 07m:18s
+2021/06/03 08:08:26 GMT	Finished epoch 3: 07m:20s
+2021/06/03 08:15:43 GMT	Finished epoch 4: 07m:18s
+2021/06/03 08:23:02 GMT	Max epochs reached on epoch 5: 07m:19s
+2021/06/03 08:23:03 GMT	Duration: 36m:41s
+2021/06/03 08:23:03 GMT	
+2021/06/03 08:23:03 GMT	Evaluating model.
+2021/06/03 08:25:36 GMT	Duration: 02m:33s
+2021/06/03 08:25:36 GMT	
+2021/06/03 08:25:36 GMT	Duration: 39m:17s
+2021/06/03 08:25:36 GMT	
+2021/06/03 08:25:36 GMT	----------------
+2021/06/03 08:25:36 GMT	Experiment: encoder_learning_rate=0.0001,grl_lambda=0.5,init_stddev=0.1,minibatch_size=16,postencoder_learning_rate=0.1
+2021/06/03 08:25:36 GMT	
+2021/06/03 08:25:36 GMT	Creating model.
+2021/06/03 08:25:40 GMT	
+2021/06/03 08:25:40 GMT	Training model.
+2021/06/03 08:36:37 GMT	Finished epoch 1: 10m:50s
+2021/06/03 08:47:27 GMT	Finished epoch 2: 10m:50s
+2021/06/03 08:58:16 GMT	Finished epoch 3: 10m:49s
+2021/06/03 09:09:06 GMT	Finished epoch 4: 10m:50s
+2021/06/03 09:19:55 GMT	Max epochs reached on epoch 5: 10m:49s
+2021/06/03 09:19:57 GMT	Duration: 54m:18s
+2021/06/03 09:19:57 GMT	
+2021/06/03 09:19:57 GMT	Evaluating model.
+2021/06/03 09:22:31 GMT	Duration: 02m:34s
+2021/06/03 09:22:31 GMT	
+2021/06/03 09:22:31 GMT	Duration: 56m:55s
+2021/06/03 09:22:31 GMT	
+2021/06/03 09:22:31 GMT	----------------
+2021/06/03 09:22:31 GMT	Experiment: encoder_learning_rate=1e-05,grl_lambda=0.7,init_stddev=0.001,minibatch_size=64,postencoder_learning_rate=0.001
+2021/06/03 09:22:31 GMT	
+2021/06/03 09:22:31 GMT	Creating model.
+2021/06/03 09:22:35 GMT	
+2021/06/03 09:22:35 GMT	Training model.
+2021/06/03 09:30:00 GMT	Finished epoch 1: 07m:18s
+2021/06/03 09:37:18 GMT	Finished epoch 2: 07m:18s
+2021/06/03 09:44:37 GMT	Finished epoch 3: 07m:19s
+2021/06/03 09:51:56 GMT	Finished epoch 4: 07m:18s
+2021/06/03 09:59:14 GMT	Max epochs reached on epoch 5: 07m:18s
+2021/06/03 09:59:15 GMT	Duration: 36m:40s
+2021/06/03 09:59:15 GMT	
+2021/06/03 09:59:15 GMT	Evaluating model.
+2021/06/03 10:01:47 GMT	Duration: 02m:33s
+2021/06/03 10:01:47 GMT	
+2021/06/03 10:01:47 GMT	Duration: 39m:16s
+2021/06/03 10:01:47 GMT	
+2021/06/03 10:01:47 GMT	----------------
+2021/06/03 10:01:47 GMT	Experiment: encoder_learning_rate=1e-06,grl_lambda=0.5,init_stddev=0.001,minibatch_size=16,postencoder_learning_rate=0.01
+2021/06/03 10:01:47 GMT	
+2021/06/03 10:01:47 GMT	Creating model.
+2021/06/03 10:01:51 GMT	
+2021/06/03 10:01:51 GMT	Training model.
+2021/06/03 10:12:51 GMT	Finished epoch 1: 10m:52s
+2021/06/03 10:23:40 GMT	Finished epoch 2: 10m:49s
+2021/06/03 10:34:32 GMT	Finished epoch 3: 10m:52s
+2021/06/03 10:45:23 GMT	Finished epoch 4: 10m:51s
+2021/06/03 10:56:13 GMT	Max epochs reached on epoch 5: 10m:50s
+2021/06/03 10:56:14 GMT	Duration: 54m:23s
+2021/06/03 10:56:14 GMT	
+2021/06/03 10:56:14 GMT	Evaluating model.
+2021/06/03 10:58:47 GMT	Duration: 02m:33s
+2021/06/03 10:58:47 GMT	
+2021/06/03 10:58:47 GMT	Duration: 57m:00s
+2021/06/03 10:58:47 GMT	
+2021/06/03 10:58:47 GMT	----------------
+2021/06/03 10:58:47 GMT	Experiment: encoder_learning_rate=1e-06,grl_lambda=0.7,init_stddev=0.001,minibatch_size=32,postencoder_learning_rate=0.1
+2021/06/03 10:58:47 GMT	
+2021/06/03 10:58:47 GMT	Creating model.
+2021/06/03 10:58:51 GMT	
+2021/06/03 10:58:51 GMT	Training model.
+2021/06/03 11:06:33 GMT	Finished epoch 1: 07m:35s
+2021/06/03 11:14:07 GMT	Finished epoch 2: 07m:34s
+2021/06/03 11:21:43 GMT	Finished epoch 3: 07m:36s
+2021/06/03 11:29:19 GMT	Finished epoch 4: 07m:36s
+2021/06/03 11:36:51 GMT	Max epochs reached on epoch 5: 07m:33s
+2021/06/03 11:36:52 GMT	Duration: 38m:01s
+2021/06/03 11:36:52 GMT	
+2021/06/03 11:36:52 GMT	Evaluating model.
+2021/06/03 11:39:27 GMT	Duration: 02m:34s
+2021/06/03 11:39:27 GMT	
+2021/06/03 11:39:27 GMT	Duration: 40m:39s
+2021/06/03 11:39:27 GMT	
+2021/06/03 11:39:27 GMT	----------------
+2021/06/03 11:39:27 GMT	Experiment: encoder_learning_rate=0.001,grl_lambda=0.1,init_stddev=0.001,minibatch_size=32,postencoder_learning_rate=0.1
+2021/06/03 11:39:27 GMT	
+2021/06/03 11:39:27 GMT	Creating model.
+2021/06/03 11:39:31 GMT	
+2021/06/03 11:39:31 GMT	Training model.
+2021/06/03 11:47:09 GMT	Finished epoch 1: 07m:32s
+2021/06/03 11:54:42 GMT	Finished epoch 2: 07m:33s
+2021/06/03 12:02:16 GMT	Finished epoch 3: 07m:33s
+2021/06/03 12:09:49 GMT	Finished epoch 4: 07m:34s
+2021/06/03 12:17:23 GMT	Max epochs reached on epoch 5: 07m:33s
+2021/06/03 12:17:25 GMT	Duration: 37m:55s
+2021/06/03 12:17:25 GMT	
+2021/06/03 12:17:25 GMT	Evaluating model.
+2021/06/03 12:19:59 GMT	Duration: 02m:34s
+2021/06/03 12:19:59 GMT	
+2021/06/03 12:19:59 GMT	Duration: 40m:33s
+2021/06/03 12:19:59 GMT	
+2021/06/03 12:19:59 GMT	----------------
+2021/06/03 12:19:59 GMT	Experiment: encoder_learning_rate=1e-06,grl_lambda=0.5,init_stddev=0.1,minibatch_size=16,postencoder_learning_rate=0.001
+2021/06/03 12:19:59 GMT	
+2021/06/03 12:19:59 GMT	Creating model.
+2021/06/03 12:20:03 GMT	
+2021/06/03 12:20:03 GMT	Training model.
+2021/06/03 12:31:01 GMT	Finished epoch 1: 10m:51s
+2021/06/03 12:41:50 GMT	Finished epoch 2: 10m:49s
+2021/06/03 12:52:41 GMT	Finished epoch 3: 10m:52s
+2021/06/03 13:03:33 GMT	Finished epoch 4: 10m:52s
+2021/06/03 13:14:25 GMT	Max epochs reached on epoch 5: 10m:52s
+2021/06/03 13:14:26 GMT	Duration: 54m:22s
+2021/06/03 13:14:26 GMT	
+2021/06/03 13:14:26 GMT	Evaluating model.
+2021/06/03 13:16:59 GMT	Duration: 02m:34s
+2021/06/03 13:16:59 GMT	
+2021/06/03 13:16:59 GMT	Duration: 57m:00s
+2021/06/03 13:16:59 GMT	
+2021/06/03 13:16:59 GMT	----------------
+2021/06/03 13:16:59 GMT	Experiment: encoder_learning_rate=0.001,grl_lambda=0.3,init_stddev=0.001,minibatch_size=64,postencoder_learning_rate=0.01
+2021/06/03 13:16:59 GMT	
+2021/06/03 13:16:59 GMT	Creating model.
+2021/06/03 13:17:03 GMT	
+2021/06/03 13:17:03 GMT	Training model.
+2021/06/03 13:24:28 GMT	Finished epoch 1: 07m:18s
+2021/06/03 13:31:46 GMT	Finished epoch 2: 07m:18s
+2021/06/03 13:39:03 GMT	Finished epoch 3: 07m:18s
+2021/06/03 13:46:20 GMT	Finished epoch 4: 07m:17s
+2021/06/03 13:53:38 GMT	Max epochs reached on epoch 5: 07m:18s
+2021/06/03 13:53:40 GMT	Duration: 36m:37s
+2021/06/03 13:53:40 GMT	
+2021/06/03 13:53:40 GMT	Evaluating model.
+2021/06/03 13:56:14 GMT	Duration: 02m:33s
+2021/06/03 13:56:14 GMT	
+2021/06/03 13:56:14 GMT	Duration: 39m:14s
+2021/06/03 13:56:14 GMT	
+2021/06/03 13:56:14 GMT	----------------
+2021/06/03 13:56:14 GMT	Experiment: encoder_learning_rate=0.0001,grl_lambda=0.7,init_stddev=0.1,minibatch_size=64,postencoder_learning_rate=0.001
+2021/06/03 13:56:14 GMT	
+2021/06/03 13:56:14 GMT	Creating model.
+2021/06/03 13:56:18 GMT	
+2021/06/03 13:56:18 GMT	Training model.
+2021/06/03 14:03:42 GMT	Finished epoch 1: 07m:17s
+2021/06/03 14:10:58 GMT	Finished epoch 2: 07m:17s
+2021/06/03 14:18:16 GMT	Finished epoch 3: 07m:18s
+2021/06/03 14:25:35 GMT	Finished epoch 4: 07m:19s
+2021/06/03 14:32:54 GMT	Max epochs reached on epoch 5: 07m:19s
+2021/06/03 14:32:55 GMT	Duration: 36m:37s
+2021/06/03 14:32:55 GMT	
+2021/06/03 14:32:55 GMT	Evaluating model.
+2021/06/03 14:35:26 GMT	Duration: 02m:32s
+2021/06/03 14:35:26 GMT	
+2021/06/03 14:35:26 GMT	Duration: 39m:13s
+2021/06/03 14:35:26 GMT	
+2021/06/03 14:35:27 GMT	----------------
+2021/06/03 14:35:27 GMT	Experiment: encoder_learning_rate=1e-06,grl_lambda=0.1,init_stddev=0.01,minibatch_size=16,postencoder_learning_rate=0.001
+2021/06/03 14:35:27 GMT	
+2021/06/03 14:35:27 GMT	Creating model.
+2021/06/03 14:35:31 GMT	
+2021/06/03 14:35:31 GMT	Training model.
+2021/06/03 14:46:29 GMT	Finished epoch 1: 10m:51s
+2021/06/03 14:57:18 GMT	Finished epoch 2: 10m:49s
+2021/06/03 15:08:09 GMT	Finished epoch 3: 10m:51s
+2021/06/03 15:19:02 GMT	Finished epoch 4: 10m:53s
+2021/06/03 15:29:54 GMT	Max epochs reached on epoch 5: 10m:52s
+2021/06/03 15:29:55 GMT	Duration: 54m:24s
+2021/06/03 15:29:55 GMT	
+2021/06/03 15:29:55 GMT	Evaluating model.
+2021/06/03 15:32:28 GMT	Duration: 02m:33s
+2021/06/03 15:32:28 GMT	
+2021/06/03 15:32:28 GMT	Duration: 57m:02s
+2021/06/03 15:32:28 GMT	
+2021/06/03 15:32:28 GMT	----------------
+2021/06/03 15:32:28 GMT	Experiment: encoder_learning_rate=0.001,grl_lambda=0.5,init_stddev=0.001,minibatch_size=64,postencoder_learning_rate=0.001
+2021/06/03 15:32:28 GMT	
+2021/06/03 15:32:28 GMT	Creating model.
+2021/06/03 15:32:32 GMT	
+2021/06/03 15:32:32 GMT	Training model.
+2021/06/03 15:39:57 GMT	Finished epoch 1: 07m:18s
+2021/06/03 15:47:15 GMT	Finished epoch 2: 07m:17s
+2021/06/03 15:54:31 GMT	Finished epoch 3: 07m:17s
+2021/06/03 16:01:48 GMT	Finished epoch 4: 07m:17s
+2021/06/03 16:09:05 GMT	Max epochs reached on epoch 5: 07m:17s
+2021/06/03 16:09:08 GMT	Duration: 36m:35s
+2021/06/03 16:09:08 GMT	
+2021/06/03 16:09:08 GMT	Evaluating model.
+2021/06/03 16:11:41 GMT	Duration: 02m:34s
+2021/06/03 16:11:41 GMT	
+2021/06/03 16:11:41 GMT	Duration: 39m:13s
+2021/06/03 16:11:41 GMT	
+2021/06/03 16:11:41 GMT	----------------
+2021/06/03 16:11:41 GMT	Experiment: encoder_learning_rate=1e-06,grl_lambda=0.1,init_stddev=0.001,minibatch_size=32,postencoder_learning_rate=0.001
+2021/06/03 16:11:41 GMT	
+2021/06/03 16:11:41 GMT	Creating model.
+2021/06/03 16:11:45 GMT	
+2021/06/03 16:11:45 GMT	Training model.
+2021/06/03 16:19:26 GMT	Finished epoch 1: 07m:34s
+2021/06/03 16:27:00 GMT	Finished epoch 2: 07m:34s
+2021/06/03 16:34:33 GMT	Finished epoch 3: 07m:34s
+2021/06/03 16:42:08 GMT	Finished epoch 4: 07m:35s
+2021/06/03 16:49:42 GMT	Max epochs reached on epoch 5: 07m:34s
+2021/06/03 16:49:43 GMT	Duration: 37m:58s
+2021/06/03 16:49:43 GMT	
+2021/06/03 16:49:43 GMT	Evaluating model.
+2021/06/03 16:52:17 GMT	Duration: 02m:34s
+2021/06/03 16:52:17 GMT	
+2021/06/03 16:52:17 GMT	Duration: 40m:36s
+2021/06/03 16:52:17 GMT	
+2021/06/03 16:52:17 GMT	----------------
+2021/06/03 16:52:17 GMT	Experiment: encoder_learning_rate=0.0001,grl_lambda=0.5,init_stddev=0.1,minibatch_size=64,postencoder_learning_rate=0.01
+2021/06/03 16:52:17 GMT	
+2021/06/03 16:52:17 GMT	Creating model.
+2021/06/03 16:52:21 GMT	
+2021/06/03 16:52:21 GMT	Training model.
+2021/06/03 16:59:47 GMT	Finished epoch 1: 07m:19s
+2021/06/03 17:07:05 GMT	Finished epoch 2: 07m:18s
+2021/06/03 17:14:22 GMT	Finished epoch 3: 07m:17s
+2021/06/03 17:21:38 GMT	Finished epoch 4: 07m:16s
+2021/06/03 17:28:55 GMT	Max epochs reached on epoch 5: 07m:17s
+2021/06/03 17:28:57 GMT	Duration: 36m:36s
+2021/06/03 17:28:57 GMT	
+2021/06/03 17:28:57 GMT	Evaluating model.
+2021/06/03 17:31:30 GMT	Duration: 02m:33s
+2021/06/03 17:31:30 GMT	
+2021/06/03 17:31:30 GMT	Duration: 39m:13s
+2021/06/03 17:31:30 GMT	
+2021/06/03 17:31:30 GMT	----------------
+2021/06/03 17:31:30 GMT	Experiment: encoder_learning_rate=0.001,grl_lambda=0.5,init_stddev=0.01,minibatch_size=64,postencoder_learning_rate=0.1
+2021/06/03 17:31:30 GMT	
+2021/06/03 17:31:30 GMT	Creating model.
+2021/06/03 17:31:34 GMT	
+2021/06/03 17:31:34 GMT	Training model.
+2021/06/03 17:38:59 GMT	Finished epoch 1: 07m:17s
+2021/06/03 17:46:15 GMT	Finished epoch 2: 07m:17s
+2021/06/03 17:53:32 GMT	Finished epoch 3: 07m:17s
+2021/06/03 18:00:49 GMT	Finished epoch 4: 07m:17s
+2021/06/03 18:08:05 GMT	Max epochs reached on epoch 5: 07m:17s
+2021/06/03 18:08:08 GMT	Duration: 36m:34s
+2021/06/03 18:08:08 GMT	
+2021/06/03 18:08:08 GMT	Evaluating model.
+2021/06/03 18:10:41 GMT	Duration: 02m:33s
+2021/06/03 18:10:41 GMT	
+2021/06/03 18:10:41 GMT	Duration: 39m:11s
+2021/06/03 18:10:41 GMT	
+2021/06/03 18:10:41 GMT	----------------
+2021/06/03 18:10:41 GMT	Experiment: encoder_learning_rate=0.0001,grl_lambda=0.3,init_stddev=0.1,minibatch_size=64,postencoder_learning_rate=0.0001
+2021/06/03 18:10:41 GMT	
+2021/06/03 18:10:41 GMT	Creating model.
+2021/06/03 18:10:45 GMT	
+2021/06/03 18:10:45 GMT	Training model.
+2021/06/03 18:18:10 GMT	Finished epoch 1: 07m:18s
+2021/06/03 18:25:27 GMT	Finished epoch 2: 07m:18s
+2021/06/03 18:32:43 GMT	Finished epoch 3: 07m:16s
+2021/06/03 18:40:01 GMT	Finished epoch 4: 07m:17s
+2021/06/03 18:47:19 GMT	Max epochs reached on epoch 5: 07m:18s
+2021/06/03 18:47:20 GMT	Duration: 36m:35s
+2021/06/03 18:47:20 GMT	
+2021/06/03 18:47:20 GMT	Evaluating model.
+2021/06/03 18:49:53 GMT	Duration: 02m:33s
+2021/06/03 18:49:53 GMT	
+2021/06/03 18:49:53 GMT	Duration: 39m:12s
+2021/06/03 18:49:53 GMT	
+2021/06/03 18:49:53 GMT	----------------
+2021/06/03 18:49:53 GMT	Experiment: encoder_learning_rate=1e-05,grl_lambda=0.3,init_stddev=0.1,minibatch_size=16,postencoder_learning_rate=0.0001
+2021/06/03 18:49:53 GMT	
+2021/06/03 18:49:53 GMT	Creating model.
+2021/06/03 18:49:57 GMT	
+2021/06/03 18:49:57 GMT	Training model.
+2021/06/03 19:00:53 GMT	Finished epoch 1: 10m:48s
+2021/06/03 19:11:45 GMT	Finished epoch 2: 10m:52s
+2021/06/03 19:22:37 GMT	Finished epoch 3: 10m:52s
+2021/06/03 19:33:29 GMT	Finished epoch 4: 10m:53s
+2021/06/03 19:44:20 GMT	Max epochs reached on epoch 5: 10m:51s
+2021/06/03 19:44:21 GMT	Duration: 54m:24s
+2021/06/03 19:44:21 GMT	
+2021/06/03 19:44:21 GMT	Evaluating model.
+2021/06/03 19:46:54 GMT	Duration: 02m:33s
+2021/06/03 19:46:54 GMT	
+2021/06/03 19:46:54 GMT	Duration: 57m:01s
+2021/06/03 19:46:54 GMT	
+2021/06/03 19:46:54 GMT	----------------
+2021/06/03 19:46:54 GMT	Experiment: encoder_learning_rate=1e-05,grl_lambda=0.7,init_stddev=0.01,minibatch_size=16,postencoder_learning_rate=0.001
+2021/06/03 19:46:54 GMT	
+2021/06/03 19:46:54 GMT	Creating model.
+2021/06/03 19:46:58 GMT	
+2021/06/03 19:46:58 GMT	Training model.
+2021/06/03 19:57:57 GMT	Finished epoch 1: 10m:51s
+2021/06/03 20:08:47 GMT	Finished epoch 2: 10m:50s
+2021/06/03 20:19:38 GMT	Finished epoch 3: 10m:51s
+2021/06/03 20:30:27 GMT	Finished epoch 4: 10m:50s
+2021/06/03 20:41:17 GMT	Max epochs reached on epoch 5: 10m:50s
+2021/06/03 20:41:20 GMT	Duration: 54m:21s
+2021/06/03 20:41:20 GMT	
+2021/06/03 20:41:20 GMT	Evaluating model.
+2021/06/03 20:43:53 GMT	Duration: 02m:33s
+2021/06/03 20:43:53 GMT	
+2021/06/03 20:43:53 GMT	Duration: 56m:59s
+2021/06/03 20:43:53 GMT	
+2021/06/03 20:43:53 GMT	----------------
+2021/06/03 20:43:53 GMT	Experiment: encoder_learning_rate=0.001,grl_lambda=0.5,init_stddev=0.001,minibatch_size=64,postencoder_learning_rate=0.0001
+2021/06/03 20:43:53 GMT	
+2021/06/03 20:43:53 GMT	Creating model.
+2021/06/03 20:43:57 GMT	
+2021/06/03 20:43:57 GMT	Training model.
+2021/06/03 20:51:21 GMT	Finished epoch 1: 07m:18s
+2021/06/03 20:58:39 GMT	Finished epoch 2: 07m:18s
+2021/06/03 21:05:57 GMT	Finished epoch 3: 07m:18s
+2021/06/03 21:13:12 GMT	Finished epoch 4: 07m:15s
+2021/06/03 21:20:27 GMT	Max epochs reached on epoch 5: 07m:15s
+2021/06/03 21:20:29 GMT	Duration: 36m:33s
+2021/06/03 21:20:29 GMT	
+2021/06/03 21:20:29 GMT	Evaluating model.
+2021/06/03 21:23:02 GMT	Duration: 02m:33s
+2021/06/03 21:23:02 GMT	
+2021/06/03 21:23:02 GMT	Duration: 39m:09s
+2021/06/03 21:23:02 GMT	
+2021/06/03 21:23:02 GMT	
+2021/06/03 21:23:02 GMT	Ready.
+2021/06/03 21:23:02 GMT	Duration: 14h:57m:50s

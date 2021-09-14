@@ -1,0 +1,1 @@
+fine_tune_tag-frozen	{"init_stddev": 0.1, "minibatch_size": 16, "postencoder_learning_rate": 0.001}

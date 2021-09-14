@@ -1,0 +1,1 @@
+lang_grad_rev_cls	{"encoder_learning_rate": 1e-06, "grl_lambda": 0.1, "init_stddev": 0.001, "minibatch_size": 32, "postencoder_learning_rate": 0.001}

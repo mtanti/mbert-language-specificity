@@ -1,0 +1,36 @@
+1	Gianni	_	NOUN	_	_	_	_	_	_
+2	ando	_	VERB	_	_	_	_	_	_
+3	per	_	ADP	_	_	_	_	_	_
+4	nuotare	_	NOUN	_	_	_	_	_	_
+5	.	_	PUNC	_	_	_	_	_	_
+
+1	A	_	ADP	_	_	_	_	_	_
+2	Paulo	_	NOUN	_	_	_	_	_	_
+3	piace	_	VERB	_	_	_	_	_	_
+4	giochare	_	VERB	_	_	_	_	_	_
+5	.	_	PUNC	_	_	_	_	_	_
+
+1	Ho	_	AUX	_	_	_	_	_	_
+2	mangiato	_	VERB	_	_	_	_	_	_
+3	una	_	DET	_	_	_	_	_	_
+4	pizza	_	NOUN	_	_	_	_	_	_
+5	.	_	PUNC	_	_	_	_	_	_
+
+1	Il	_	DET	_	_	_	_	_	_
+2	ragazzo	_	NOUN	_	_	_	_	_	_
+3	sta	_	AUX	_	_	_	_	_	_
+4	studiando	_	VERB	_	_	_	_	_	_
+5	.	_	PUNC	_	_	_	_	_	_
+
+1	Il	_	DET	_	_	_	_	_	_
+2	cane	_	NOUN	_	_	_	_	_	_
+3	abbaio	_	VERB	_	_	_	_	_	_
+4	per	_	ADP	_	_	_	_	_	_
+5	tutta	_	DET	_	_	_	_	_	_
+6	la	_	DET	_	_	_	_	_	_
+7	notte	_	NOUN	_	_	_	_	_	_
+8	.	_	PUNC	_	_	_	_	_	_
+
+1	Abbiamo	_	AUX	_	_	_	_	_	_
+2	vinto	_	VERB	_	_	_	_	_	_
+3	!	_	PUNC	_	_	_	_	_	_

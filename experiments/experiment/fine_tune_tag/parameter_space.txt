@@ -1,0 +1,1 @@
+fine_tune_tag	{"encoder_learning_rate": 0.0001, "init_stddev": 0.01, "minibatch_size": 64, "postencoder_learning_rate": 0.1}

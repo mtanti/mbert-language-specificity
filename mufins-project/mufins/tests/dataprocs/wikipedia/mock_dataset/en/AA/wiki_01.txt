@@ -1,0 +1,5 @@
+<doc id="1" url="?curid=1" title="a">
+McDonalds is a brand.
+So is Audi.
+His name is John.
+</doc>

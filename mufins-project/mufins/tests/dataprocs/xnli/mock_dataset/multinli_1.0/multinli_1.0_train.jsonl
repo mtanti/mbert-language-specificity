@@ -1,0 +1,6 @@
+{"gold_label": "entailment", "sentence1": "John went swimming.", "sentence2": "John went out."}
+{"gold_label": "contradiction", "sentence1": "Paul likes to play.", "sentence2": "Paul hates to play."}
+{"gold_label": "neutral", "sentence1": "I ate a pizza.", "sentence2": "I drank water."}
+{"gold_label": "entailment", "sentence1": "The boy is studying.", "sentence2": "The boy is learning."}
+{"gold_label": "contradiction", "sentence1": "The dog barked all night.", "sentence2": "The dog slept all night."}
+{"gold_label": "neutral", "sentence1": "We won!", "sentence2": "We arrived."}

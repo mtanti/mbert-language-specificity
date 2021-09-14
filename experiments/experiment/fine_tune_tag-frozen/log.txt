@@ -1,0 +1,56 @@
+2021/07/16 13:47:18 GMT	
+2021/07/16 13:47:18 GMT	------------------------------------------------
+2021/07/16 13:47:18 GMT	Running fine_tune_tag experiment.
+2021/07/16 13:47:18 GMT	
+2021/07/16 13:47:20 GMT	Seed: 0
+2021/07/16 13:47:20 GMT	Label source path: /home/marc/data/mufins/datasets/udpos/processed/udpos-2
+2021/07/16 13:47:20 GMT	Language source path: /home/marc/data/mufins/datasets/wikipedia/processed/wikipedia-2
+2021/07/16 13:47:20 GMT	Destination path: /opt/local/data/users/marc/mufins/experiments/language_specificity/experiment/fine_tune_tag-frozen
+2021/07/16 13:47:20 GMT	Device name: cuda:1
+2021/07/16 13:47:20 GMT	Hyperparameter search mode: False
+2021/07/16 13:47:20 GMT	Batch size: 32
+2021/07/16 13:47:20 GMT	GPU available?: True
+2021/07/16 13:47:20 GMT	
+2021/07/16 13:47:20 GMT	Default parameters:
+2021/07/16 13:47:20 GMT	> encoder_name: mbert
+2021/07/16 13:47:20 GMT	> layer_index: None
+2021/07/16 13:47:20 GMT	> init_stddev: 0.1
+2021/07/16 13:47:20 GMT	> minibatch_size: 64
+2021/07/16 13:47:20 GMT	> dropout_rate: 0.1
+2021/07/16 13:47:20 GMT	> freeze_embeddings: False
+2021/07/16 13:47:20 GMT	> encoder_learning_rate: None
+2021/07/16 13:47:20 GMT	> postencoder_learning_rate: 0.01
+2021/07/16 13:47:20 GMT	> patience: None
+2021/07/16 13:47:20 GMT	> max_epochs: 5
+2021/07/16 13:47:20 GMT	
+2021/07/16 13:47:20 GMT	Loading data.
+2021/07/16 13:47:20 GMT	Starting experiments.
+2021/07/16 13:47:20 GMT	
+2021/07/16 13:47:20 GMT	----------------
+2021/07/16 13:47:20 GMT	Experiment: fine_tune_tag-frozen
+2021/07/16 13:47:20 GMT	
+2021/07/16 13:47:20 GMT	Creating model.
+2021/07/16 13:47:26 GMT	
+2021/07/16 13:47:26 GMT	Training model.
+2021/07/16 13:47:26 GMT	Main phase
+2021/07/16 13:52:14 GMT	Finished epoch 1: 04m:36s
+2021/07/16 13:56:52 GMT	Finished epoch 2: 04m:38s
+2021/07/16 14:01:30 GMT	Finished epoch 3: 04m:38s
+2021/07/16 14:06:09 GMT	Finished epoch 4: 04m:39s
+2021/07/16 14:10:48 GMT	Max epochs reached on epoch 5: 04m:39s
+2021/07/16 14:10:49 GMT	Language phase
+2021/07/16 14:49:01 GMT	Finished epoch 1: 37m:02s
+2021/07/16 15:26:22 GMT	Finished epoch 2: 37m:21s
+2021/07/16 16:03:37 GMT	Finished epoch 3: 37m:15s
+2021/07/16 16:40:35 GMT	Finished epoch 4: 36m:58s
+2021/07/16 17:17:40 GMT	Max epochs reached on epoch 5: 37m:05s
+2021/07/16 17:17:48 GMT	Duration: 03h:30m:21s
+2021/07/16 17:17:48 GMT	
+2021/07/16 17:17:48 GMT	Evaluating model.
+2021/07/16 17:32:10 GMT	Duration: 14m:22s
+2021/07/16 17:32:10 GMT	
+2021/07/16 17:32:10 GMT	Duration: 03h:44m:50s
+2021/07/16 17:32:10 GMT	
+2021/07/16 17:32:10 GMT	
+2021/07/16 17:32:10 GMT	Ready.
+2021/07/16 17:32:10 GMT	Duration: 03h:44m:51s

@@ -1,0 +1,3 @@
+<doc id="1" url="?curid=1" title="a">
+Mi piace guidare.
+</doc>

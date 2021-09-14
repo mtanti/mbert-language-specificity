@@ -1,0 +1,57 @@
+2021/07/19 05:58:09 GMT	
+2021/07/19 05:58:09 GMT	------------------------------------------------
+2021/07/19 05:58:09 GMT	Running lang_ent_max_cls experiment.
+2021/07/19 05:58:09 GMT	
+2021/07/19 05:58:11 GMT	Seed: 0
+2021/07/19 05:58:11 GMT	Label source path: /home/marc/data/mufins/datasets/xnli/processed/xnli-5
+2021/07/19 05:58:11 GMT	Language source path: /home/marc/data/mufins/datasets/wikipedia/processed/wikipedia-2
+2021/07/19 05:58:11 GMT	Destination path: /opt/local/data/users/marc/mufins/experiments/language_specificity/experiment/lang_ent_max_cls
+2021/07/19 05:58:11 GMT	Device name: cuda:1
+2021/07/19 05:58:11 GMT	Hyperparameter search mode: False
+2021/07/19 05:58:11 GMT	Batch size: 32
+2021/07/19 05:58:11 GMT	GPU available?: True
+2021/07/19 05:58:11 GMT	
+2021/07/19 05:58:11 GMT	Default parameters:
+2021/07/19 05:58:11 GMT	> encoder_name: mbert
+2021/07/19 05:58:11 GMT	> layer_index: None
+2021/07/19 05:58:11 GMT	> init_stddev: 0.1
+2021/07/19 05:58:11 GMT	> minibatch_size: 64
+2021/07/19 05:58:11 GMT	> dropout_rate: 0.1
+2021/07/19 05:58:11 GMT	> freeze_embeddings: False
+2021/07/19 05:58:11 GMT	> encoder_learning_rate: 2e-05
+2021/07/19 05:58:11 GMT	> postencoder_learning_rate: 0.01
+2021/07/19 05:58:11 GMT	> lang_error_weighting: 0.5
+2021/07/19 05:58:11 GMT	> patience: None
+2021/07/19 05:58:11 GMT	> max_epochs: 5
+2021/07/19 05:58:11 GMT	
+2021/07/19 05:58:11 GMT	Loading data.
+2021/07/19 05:58:11 GMT	Starting experiments.
+2021/07/19 05:58:11 GMT	
+2021/07/19 05:58:11 GMT	----------------
+2021/07/19 05:58:11 GMT	Experiment: lang_ent_max_cls
+2021/07/19 05:58:11 GMT	
+2021/07/19 05:58:11 GMT	Creating model.
+2021/07/19 05:58:17 GMT	
+2021/07/19 05:58:17 GMT	Training model.
+2021/07/19 05:58:17 GMT	Main phase
+2021/07/19 08:59:30 GMT	Finished epoch 1: 02h:56m:21s
+2021/07/19 11:55:37 GMT	Finished epoch 2: 02h:56m:07s
+2021/07/19 14:51:34 GMT	Finished epoch 3: 02h:55m:57s
+2021/07/19 17:47:21 GMT	Finished epoch 4: 02h:55m:48s
+2021/07/19 20:43:09 GMT	Max epochs reached on epoch 5: 02h:55m:48s
+2021/07/19 20:43:10 GMT	Language phase
+2021/07/19 21:10:05 GMT	Finished epoch 1: 25m:47s
+2021/07/19 21:35:52 GMT	Finished epoch 2: 25m:47s
+2021/07/19 22:01:39 GMT	Finished epoch 3: 25m:48s
+2021/07/19 22:27:26 GMT	Finished epoch 4: 25m:47s
+2021/07/19 22:53:14 GMT	Max epochs reached on epoch 5: 25m:48s
+2021/07/19 22:53:29 GMT	Duration: 16h:55m:12s
+2021/07/19 22:53:29 GMT	
+2021/07/19 22:53:29 GMT	Evaluating model.
+2021/07/19 23:02:48 GMT	Duration: 09m:19s
+2021/07/19 23:02:48 GMT	
+2021/07/19 23:02:48 GMT	Duration: 17h:04m:38s
+2021/07/19 23:02:48 GMT	
+2021/07/19 23:02:48 GMT	
+2021/07/19 23:02:48 GMT	Ready.
+2021/07/19 23:02:48 GMT	Duration: 17h:04m:39s

@@ -1,0 +1,56 @@
+2021/07/17 04:14:53 GMT	
+2021/07/17 04:14:53 GMT	------------------------------------------------
+2021/07/17 04:14:53 GMT	Running fine_tune_cls experiment.
+2021/07/17 04:14:53 GMT	
+2021/07/17 04:14:54 GMT	Seed: 0
+2021/07/17 04:14:54 GMT	Label source path: /home/marc/data/mufins/datasets/xnli/processed/xnli-5
+2021/07/17 04:14:54 GMT	Language source path: /home/marc/data/mufins/datasets/wikipedia/processed/wikipedia-2
+2021/07/17 04:14:54 GMT	Destination path: /opt/local/data/users/marc/mufins/experiments/language_specificity/experiment/fine_tune_cls-frozen
+2021/07/17 04:14:54 GMT	Device name: cuda:1
+2021/07/17 04:14:54 GMT	Hyperparameter search mode: False
+2021/07/17 04:14:54 GMT	Batch size: 32
+2021/07/17 04:14:54 GMT	GPU available?: True
+2021/07/17 04:14:54 GMT	
+2021/07/17 04:14:54 GMT	Default parameters:
+2021/07/17 04:14:54 GMT	> encoder_name: mbert
+2021/07/17 04:14:54 GMT	> layer_index: None
+2021/07/17 04:14:54 GMT	> init_stddev: 0.1
+2021/07/17 04:14:54 GMT	> minibatch_size: 64
+2021/07/17 04:14:54 GMT	> dropout_rate: 0.1
+2021/07/17 04:14:54 GMT	> freeze_embeddings: False
+2021/07/17 04:14:54 GMT	> encoder_learning_rate: None
+2021/07/17 04:14:54 GMT	> postencoder_learning_rate: 0.01
+2021/07/17 04:14:54 GMT	> patience: None
+2021/07/17 04:14:54 GMT	> max_epochs: 5
+2021/07/17 04:14:54 GMT	
+2021/07/17 04:14:54 GMT	Loading data.
+2021/07/17 04:14:54 GMT	Starting experiments.
+2021/07/17 04:14:54 GMT	
+2021/07/17 04:14:54 GMT	----------------
+2021/07/17 04:14:54 GMT	Experiment: fine_tune_cls-frozen
+2021/07/17 04:14:54 GMT	
+2021/07/17 04:14:54 GMT	Creating model.
+2021/07/17 04:15:01 GMT	
+2021/07/17 04:15:01 GMT	Training model.
+2021/07/17 04:15:01 GMT	Main phase
+2021/07/17 05:26:00 GMT	Finished epoch 1: 01h:07m:20s
+2021/07/17 06:33:19 GMT	Finished epoch 2: 01h:07m:19s
+2021/07/17 07:40:39 GMT	Finished epoch 3: 01h:07m:20s
+2021/07/17 08:48:05 GMT	Finished epoch 4: 01h:07m:26s
+2021/07/17 09:55:36 GMT	Max epochs reached on epoch 5: 01h:07m:31s
+2021/07/17 09:55:37 GMT	Language phase
+2021/07/17 10:22:32 GMT	Finished epoch 1: 25m:52s
+2021/07/17 10:48:22 GMT	Finished epoch 2: 25m:50s
+2021/07/17 11:14:15 GMT	Finished epoch 3: 25m:52s
+2021/07/17 11:40:04 GMT	Finished epoch 4: 25m:49s
+2021/07/17 12:06:00 GMT	Max epochs reached on epoch 5: 25m:56s
+2021/07/17 12:06:05 GMT	Duration: 07h:51m:05s
+2021/07/17 12:06:05 GMT	
+2021/07/17 12:06:05 GMT	Evaluating model.
+2021/07/17 12:15:13 GMT	Duration: 09m:08s
+2021/07/17 12:15:13 GMT	
+2021/07/17 12:15:13 GMT	Duration: 08h:00m:19s
+2021/07/17 12:15:13 GMT	
+2021/07/17 12:15:13 GMT	
+2021/07/17 12:15:13 GMT	Ready.
+2021/07/17 12:15:13 GMT	Duration: 08h:00m:20s

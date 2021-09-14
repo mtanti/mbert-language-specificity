@@ -1,0 +1,6 @@
+{"gold_label": "entailment", "language": "en", "sentence1": "I feel sick.", "sentence2": "I feel unwell."}
+{"gold_label": "contradiction", "language": "en", "sentence1": "I love my wife.", "sentence2": "I hate my wife."}
+{"gold_label": "neutral", "language": "en", "sentence1": "She seems nice.", "sentence2": "She has a car."}
+{"gold_label": "entailment", "language": "it", "sentence1": "Mi sento male.", "sentence2": "Non mi sento bene."}
+{"gold_label": "contradiction", "language": "it", "sentence1": "Io amo mia moglie.", "sentence2": "Io odio mia moglie."}
+{"gold_label": "neutral", "language": "it", "sentence1": "Lei sembra per bene.", "sentence2": "Lei ha una macchina."}

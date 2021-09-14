@@ -1,0 +1,127 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+
+    "type": "object",
+    "propertyNames": {
+        "pattern": "^[a-z_]+$"
+    },
+    "additionalProperties": false,
+    "minProperties": 1,
+    "patternProperties": {
+        ".*": {
+            "type": "object",
+            "properties": {
+                "dtype": {
+                    "enum": [
+                        "bool",
+                        "str",
+                        "int",
+                        "float",
+                        "int_range",
+                        "float_range"
+                    ]
+                }
+            },
+            "required": ["dtype"],
+            "allOf": [
+
+                {
+                    "$comment": "bool: A random boolean.",
+                    "if": {"properties": {"dtype": {"const": "boolean"}}},
+                    "then": {
+                        "properties": {
+                            "dtype": {}
+                        },
+                        "additionalProperties": false,
+                        "required": ["dtype"]
+                    }
+                },
+
+                {
+                    "$comment": "str: A choice from a list of strings.",
+                    "if": {"properties": {"dtype": {"const": "str"}}},
+                    "then": {
+                        "properties": {
+                            "dtype": {},
+                            "values": {
+                                "type": "array",
+                                "uniqueItems": true,
+                                "minItems": 2,
+                                "items": {"type": "string"}
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": ["dtype", "values"]
+                    }
+                },
+
+                {
+                    "$comment": "int: A choice from a list of integers.",
+                    "if": {"properties": {"dtype": {"const": "int"}}},
+                    "then": {
+                        "properties": {
+                            "dtype": {},
+                            "values": {
+                                "type": "array",
+                                "uniqueItems": true,
+                                "minItems": 2,
+                                "items": {"type": "integer"}
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": ["dtype", "values"]
+                    }
+                },
+
+                {
+                    "$comment": "float: A choice from a list of floats",
+                    "if": {"properties": {"dtype": {"const": "float"}}},
+                    "then": {
+                        "properties": {
+                            "dtype": {},
+                            "values": {
+                                "type": "array",
+                                "uniqueItems": true,
+                                "minItems": 2,
+                                "items": {"type": "number"}
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": ["dtype", "values"]
+                    }
+                },
+
+                {
+                    "$comment": "int_range: A choice from a range of integers with a uniform or logarithmic distribution.",
+                    "if": {"properties": {"dtype": {"const": "int_range"}}},
+                    "then": {
+                        "properties": {
+                            "dtype": {},
+                            "min": {"type": "integer"},
+                            "max": {"type": "integer"},
+                            "dist": {"enum": ["uniform", "log2"]}
+                        },
+                        "additionalProperties": false,
+                        "required": ["dtype", "min", "max", "dist"]
+                    }
+                },
+
+                {
+                    "$comment": "float_range: A choice from a range of floats with a uniform or logarithmic distribution.",
+                    "if": {"properties": {"dtype": {"const": "float_range"}}},
+                    "then": {
+                        "properties": {
+                            "dtype": {},
+                            "min": {"type": "number"},
+                            "max": {"type": "number"},
+                            "dist": {"enum": ["uniform", "log10"]}
+                        },
+                        "additionalProperties": false,
+                        "required": ["dtype", "min", "max", "dist"]
+                    }
+                }
+
+            ]
+        }
+    }
+}

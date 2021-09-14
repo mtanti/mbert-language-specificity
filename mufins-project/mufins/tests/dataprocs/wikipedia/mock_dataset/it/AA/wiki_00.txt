@@ -1,0 +1,4 @@
+<doc id="1" url="?curid=1" title="a">
+Gianni compra la BMW.
+Paulo venda la Audi.
+</doc>

@@ -1,0 +1,1 @@
+fine_tune_cls-frozen	{"init_stddev": 0.01, "minibatch_size": 64, "postencoder_learning_rate": 0.01}

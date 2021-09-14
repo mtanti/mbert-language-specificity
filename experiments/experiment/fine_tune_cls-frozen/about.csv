@@ -1,0 +1,5 @@
+key,value
+timestamp,2021/07/17 04:14:53 GMT
+version,14.0
+hostname,PRL-LIN-Columbine
+path,/opt/local/data/users/marc/mufins/experiments/language_specificity/experiment/fine_tune_cls-frozen
